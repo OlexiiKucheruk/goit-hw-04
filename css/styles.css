@@ -10,7 +10,6 @@
     --column-gap: 30px;
     --margin-none: 0px;
     --icons-color:#AFB1B8;
-   
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -18,9 +17,7 @@ body{
     background-color: var(--white-color);
     letter-spacing: 0.03em;
 }
-p{
-    margin: var(--margin-none);
-}
+
 .header{
     background-color: var(--white-color);
     font-weight: 500;
@@ -40,14 +37,7 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
- img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-h1,h2,h3,h4,h5,h6{
-    margin: var(--margin-none);
-}
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -61,8 +51,6 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.02em;
     font-weight: 500;
     fill: currentColor;
-    
-
 }
 .header-contacts{
     display: flex;
@@ -91,12 +79,11 @@ h1,h2,h3,h4,h5,h6{
 .link{
     text-decoration: none;
     color:inherit;
-    
 }
 .nav-link{
-  padding-top: 32px;
-  padding-bottom: 32px; 
-  display: inline-block;
+padding-top: 32px;
+padding-bottom: 32px; 
+display: inline-block;
 }
 
 .link:hover{
@@ -148,7 +135,6 @@ h1,h2,h3,h4,h5,h6{
 .list-style {
     list-style: none;
     padding-left: 0px;
-   
 }
 .hero{
     /* background-color: var(--second-background-color); */
@@ -230,7 +216,6 @@ h1,h2,h3,h4,h5,h6{
 .benefits{
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
-   
 }
 .benefits:nth-child(4n){
     margin-right: 0px;
@@ -262,19 +247,18 @@ background-color: var(--second-body-color);
     text-align: center;
 }
 .teams-card{
-   
     display: flex;
     margin: var(--margin-none);
 }
- .team-contact{
+.team-contact{
     margin: var(--margin-none);
     display: flex;
     column-gap: 10px;
     justify-content: center;
     
     margin-top: 10px;
- }
- .team-link{
+}
+.team-link{
     text-decoration: none; 
     width: 44px;
     height: 44px;
@@ -283,14 +267,12 @@ background-color: var(--second-body-color);
     justify-content: center;
     color: var(--icons-color);
     fill: currentColor;
-    
-    
- }
- .team-link:hover, .team-link:focus{
-   background-color: var(--accent-color);
-   fill: var(--white-color);
-   border-radius: 50%;
- }
+}
+.team-link:hover, .team-link:focus{
+background-color: var(--accent-color);
+fill: var(--white-color);
+border-radius: 50%;
+}
 
 
 
@@ -379,13 +361,11 @@ background-color: var(--second-body-color);
 }
 .list-style-portfolio{
     list-style: none;
-
     display: flex;
     padding-left: 0px;
     justify-content: center;
     margin-bottom: var(--margin-none);
     margin-top: var(--margin-none);
-    
 }
 .cards-product{
     padding: 20px 24px;
@@ -409,8 +389,7 @@ background-color: var(--second-body-color);
 }
 .portfolio-link:hover,.portfolio-link:focus
 {
- box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .net:nth-child(3n){
@@ -500,7 +479,7 @@ margin-right: 0px;
 .footer-links:not(:last-child){ 
 margin-bottom: 9px;
 }
-   
+
 .join-in{
     text-transform: uppercase;
     font-weight: 700;
@@ -508,7 +487,6 @@ margin-bottom: 9px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--white-color);
-
 }
 .join-link {
     text-decoration: none;
@@ -521,8 +499,8 @@ margin-bottom: 9px;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-
 }
+
 .join-contact {
     margin: var(--margin-none);
     display: flex;
