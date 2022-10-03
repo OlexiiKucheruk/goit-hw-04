@@ -50,7 +50,6 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
-    fill: currentColor;
 }
 .header-contacts{
     display: flex;
@@ -58,9 +57,6 @@ body{
     margin: var(--margin-none);
     margin-left: auto;
     color: var(--primary-text-color);
-    fill: currentColor;
-
-    
 }
 
 .contact+.contact{
@@ -106,8 +102,6 @@ display: inline-block;
 }
 .icon-header{
     margin-right: 10px;
-    fill: currentColor;
-    
 }
 .icon-header:hover,
 .icon-header:focus{
@@ -274,9 +268,6 @@ fill: var(--white-color);
 border-radius: 50%;
 }
 
-
-
-
 .team-elements {
     background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
@@ -321,10 +312,6 @@ border-radius: 50%;
 }
 .portfolio-link {
     text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.87;
-    margin: var(--margin-none);
     display: block;
 }
 .title-portfolio{
@@ -397,13 +384,13 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 
 .client{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     margin-bottom: 50px;
+    margin-top: 0px;
 }
 .icon-client{
     
@@ -411,6 +398,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     fill: currentColor;
     width: calc((100% - 150px) / 6);
     margin-right: var(--column-gap);
+    margin: 0px;
 }
 
 .icon-client:nth-child(6n){
@@ -487,6 +475,7 @@ margin-bottom: 9px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    margin: 0px;
 }
 .join-link {
     text-decoration: none;
