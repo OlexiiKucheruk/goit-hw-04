@@ -266,7 +266,7 @@ background-color: var(--second-body-color);
 }
 .team-link:hover, .team-link:focus{
 background-color: var(--accent-color);
-color: var(--accent-color);
+color: var(--icons-color);
 border-radius: 50%;
 }
 
